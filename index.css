@@ -1,0 +1,72 @@
+body{
+  background-color: white;
+}
+.cuerpo {
+
+  position: relative;
+
+  margin: 0 auto;
+  border: thick solid black;
+  height: 53em;
+  width: 60em;
+}
+.boca {
+  position: relative;
+  top: 0;
+  left: 0em;
+  right: 20em;
+  bottom: 0;
+  width: 30em;
+  height: 20em;
+  border: solid 30px;
+  border-color: transparent transparent black transparent;
+}
+
+.ojosraniles {
+  position: absolute;
+  width: 250px;
+  left: 2em;
+  top:1em;
+  right: 0;
+  height: 250px;
+  background-color: green;
+  border: thick solid black;
+
+
+}
+.dentrodelojo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width:200px;
+  height:200px;
+  background-color: black;
+  border-radius: 50%;
+}
+.ojosranilesdere {
+  position: absolute;
+  width: 250px;
+  left: 38em;
+  top:-2em;
+  right: 0em;
+  height: 250px;
+  background-color: green;
+  border: thick solid black;
+
+
+}
+.dentrodelojodere {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width:200px;
+  height:200px;
+  background-color: black;
+  border-radius: 50%;
+}
