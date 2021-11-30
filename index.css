@@ -1,72 +1,138 @@
-body{
-  background-color: white;
+{
+  box-sizing: border-box;
+
+}
+.muneco {
+  position: relative;
+  margin: 0 auto;
+  height: 30em;
+  width: 30em;
+  top: 10em;
+}
+.pelo{
+
+}
+.pelillos{
+
+}
+.ojos {
+  position: absolute;
+  height: 300px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+border-radius: 20px;
+  background-color: #ffd65e;
+
+}
+
+.ojo {
+  position: ;
+  width: 150px;
+  height: 150px;
+  background-color: black;
+  border: thin solid black;
+  border-radius: 50%;
+  top: -10em;
+
+}
+
+
+
+.ojo-lt {
+  position: absolute;
+  left: 2em;
+  top: 0;
+}
+.ojo-rt {
+  position: absolute;
+  right: 2em;
+  top: 0;
+}
+
+.pico{
+  position: absolute;
+  height: 200px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: 0em;
+  background-color: #f2eabc;
+  z-index: 4;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 150px;
+  border-bottom-left-radius: 150px;
+
+  }
+
+  .puntopico {
+  position: relative;
+  width: 10px;
+  height: 100px;
+  background-color: #d8d0a2;
+  right: -10em;
+  border-radius: 20px;
+
+}
+.puntopico3 {
+position: relative;
+width: 10px;
+height: 100px;
+background-color: #d8d0a2;
+right: -10em;
+border-radius: 20px;
+
 }
 .cuerpo {
-
-  position: relative;
-
+  position: absolute;
   margin: 0 auto;
-  border: thick solid black;
-  height: 53em;
-  width: 60em;
-}
-.boca {
-  position: relative;
-  top: 0;
-  left: 0em;
-  right: 20em;
-  bottom: 0;
+  height: 35em;
   width: 30em;
-  height: 20em;
-  border: solid 30px;
-  border-color: transparent transparent black transparent;
+  top: 25em;
+  background-color: #ffd65e;
+  border-top-left-radius: 700px;
+  border-top-right-radius: 700px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
-.ojosraniles {
+.bracitos{
   position: absolute;
-  width: 250px;
-  left: 2em;
-  top:1em;
-  right: 0;
-  height: 250px;
-  background-color: green;
-  border: thick solid black;
-
-
-}
-.dentrodelojo {
-  position: absolute;
-  top: 0;
+  height: 500px;
   left: 0;
   right: 0;
-  bottom: 0;
-  margin: auto;
-  width:200px;
-  height:200px;
-  background-color: black;
-  border-radius: 50%;
+  margin: 0 auto;
+  background-color: ed;
+bottom:-50em;
 }
-.ojosranilesdere {
-  position: absolute;
-  width: 250px;
-  left: 38em;
-  top:-2em;
-  right: 0em;
-  height: 250px;
-  background-color: green;
-  border: thick solid black;
 
-
-}
-.dentrodelojodere {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  width:200px;
-  height:200px;
+.brazo-lt {
+  position: relative;
+  width: 300px;
+  height: 75px;
   background-color: black;
-  border-radius: 50%;
+  top: -40em;
+  left: -13.8em;
+  border-top-left-radius: 700px;
+  border-top-right-radius: 700px;
+  border-bottom-right-radius: 700px;
+  border-bottom-left-radius: 700px;
+  background-color: #ffd65e;
+    transform:rotate(-40deg);
+}
+.brazo-rt {
+  position: relative;
+  width: 300px;
+  height: 75px;
+  background-color: black;
+  top: -44em;
+  right:-25em;
+  border-top-left-radius: 700px;
+  border-top-right-radius: 700px;
+  border-bottom-right-radius: 700px;
+  border-bottom-left-radius: 700px;
+  background-color: #ffd65e;
+
+  transform:rotate(40deg);
 }
