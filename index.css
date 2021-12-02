@@ -21,11 +21,11 @@
   left: 0;
   right: 0;
   margin: 0 auto;
-border-radius: 20px;
-  background-color: #ffd65e;
+  border-radius: 20px;
+  background-color: #65350F;
+  border: thin solid brown;
 
 }
-
 .ojo {
   position: ;
   width: 150px;
@@ -76,12 +76,12 @@ border-radius: 20px;
 
 }
 .puntopico3 {
-position: relative;
-width: 10px;
-height: 100px;
-background-color: #d8d0a2;
-right: -10em;
-border-radius: 20px;
+  position: relative;
+  width: 10px;
+  height: 100px;
+  background-color: #d8d0a2;
+  right: -10em;
+  border-radius: 20px;
 
 }
 .cuerpo {
@@ -90,13 +90,72 @@ border-radius: 20px;
   height: 35em;
   width: 30em;
   top: 25em;
-  background-color: #ffd65e;
+  background-color: #65350F;
   border-top-left-radius: 700px;
   border-top-right-radius: 700px;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
 }
-
+.ubre{
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background-color: pink;
+  border: thick solid #FF0080;
+  top: 12em;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.leche{
+  position: relative;
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  border: thick solid #FF0080;
+  top: 5em;
+  left:15em;
+  border-radius: 50%;
+}
+.leche1{
+  position: relative;
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  border: thick solid #FF0080;
+  top: -11em;
+  left:16em;
+  border-radius: 50%;
+}
+.leche2{
+  position: relative;
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  border: thick solid #FF0080;
+  top: -11em;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.leche3{
+  position: relative;
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  border: thick solid #FF0080;
+  top: -22em;
+  left: 9em;
+  border-radius: 50%;
+}
+.leche4{
+  position: relative;
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  border: thick solid #FF0080;
+  top: -17em;
+  left: 9em;
+  border-radius: 50%;
+}
 .bracitos{
   position: absolute;
   height: 500px;
@@ -104,7 +163,7 @@ border-radius: 20px;
   right: 0;
   margin: 0 auto;
   background-color: ed;
-bottom:-50em;
+  bottom:-50em;
 }
 
 .brazo-lt {
@@ -113,14 +172,25 @@ bottom:-50em;
   height: 75px;
   background-color: black;
   top: -40em;
-  left: -13.8em;
+  left: -13.4em;
   border-top-left-radius: 700px;
-  border-top-right-radius: 700px;
   border-bottom-right-radius: 700px;
   border-bottom-left-radius: 700px;
-  background-color: #ffd65e;
-    transform:rotate(-40deg);
+  background-color: #65350F;
+  transform:rotate(-40deg);
 }
+.brazo-drt {
+  position: absolute;
+  width: 76px;
+  height: 77px;
+  background-color: #f2eabc;
+  border-bottom-right-radius: 700px;
+  border-bottom-left-radius: 700px;
+  transform:rotate(50deg);
+  top: -35.359em;
+  left: -12em;
+}
+
 .brazo-rt {
   position: relative;
   width: 300px;
@@ -128,11 +198,52 @@ bottom:-50em;
   background-color: black;
   top: -44em;
   right:-25em;
-  border-top-left-radius: 700px;
   border-top-right-radius: 700px;
   border-bottom-right-radius: 700px;
   border-bottom-left-radius: 700px;
-  background-color: #ffd65e;
-
+  background-color: #65350F;
   transform:rotate(40deg);
+}
+.brazo-dlt {
+  position: absolute;
+  width: 76px;
+  height: 77px;
+  background-color: #f2eabc;
+  border-bottom-right-radius: 700px;
+  border-bottom-left-radius: 700px;
+  transform:rotate(-50deg);
+  top: -34.75em;
+  right: -12.3em;
+  z-index: 4;
+}
+.patas{
+  position: absolute;
+  height: 50px;
+  left: 10em;
+  right: 0;
+  margin: 0 auto;
+  background-color: ;
+  bottom:0em;
+}
+.pata-r{
+  position: absolute;
+  width: 125px;
+  height: 150px;
+  background-color: #f2eabc;
+  left: -10em;
+  top: 0;
+  border-bottom-right-radius: 700px;
+  border-bottom-left-radius: 700px;
+  z-index: -4;
+}
+.pata-l{
+  position: absolute;
+  width: 125px;
+  height: 150px;
+  background-color: #f2eabc;
+  right: 0;
+  top: 0;
+  border-bottom-right-radius: 700px;
+  border-bottom-left-radius: 700px;
+  z-index: -4;
 }
