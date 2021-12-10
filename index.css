@@ -2,6 +2,7 @@
   box-sizing: border-box;
 
 }
+
 .muneco {
   position: relative;
   margin: 0 auto;
@@ -9,12 +10,7 @@
   width: 30em;
   top: 10em;
 }
-.pelo{
 
-}
-.pelillos{
-
-}
 .ojos {
   position: absolute;
   height: 300px;
@@ -41,9 +37,6 @@
   0% {background-color: brown;  }
   50% {background-color: white; }
   100% {background-color: pink;}
-}
-.cuernos{
-
 }
 
 .gafas{
@@ -108,8 +101,54 @@
   border-top-right-radius: 20px;
   border-bottom-right-radius: 150px;
   border-bottom-left-radius: 150px;
-
   }
+.mensaje{
+  position: absolute;
+  height: 250px;
+
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  background-color: white;
+  box-shadow: 1px 12px 33px rgba(0, 0, 0, 0.5);
+ animation: MessageOn 6s infinite; */
+  z-index: 1000;
+  top: -10em;
+}
+
+.mensaje:before {
+    border: 25px solid white;
+    content: '';
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    position: absolute;
+    bottom: -48px;
+    left: calc(50% - 25px);
+
+}
+
+
+
+
+  @keyframes MessageOn{
+  0%{
+    background:transparent;
+    color:transparent;
+  }
+  25% {
+    background:transparent;
+    color:transparent;
+  }
+  50%{
+    background: black;
+    color: white;
+  }
+  100%{
+    background:transparent;
+    color:transparent;
+  }
+}
 
   .puntopico {
   position: relative;
@@ -300,4 +339,28 @@
   border-bottom-right-radius: 700px;
   border-bottom-left-radius: 700px;
   z-index: -4;
+}
+.maletin {position: absolute;
+height: 150px;
+width: 190px;
+left: 550px;
+right: 0;
+bottom:800px;
+background-color: black;
+z-index: 5;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+border-bottom-right-radius: 20px;
+border-bottom-left-radius: 20px;
+}
+.luna {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  background-color: black;
+  border: thick soli #FF0080;
+  margin: 0 auto;
+  bottom:50px;
+  border-radius: 50%;
+  position:relative; z-index:1;
 }
